@@ -1,0 +1,16 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+sourceCompatibility = 1.8
+version = 1.0
+
+mainClassName = 'iampurpleenough.Main'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'javax.json:javax.json-api:1.0'
+    runtime 'org.glassfish:javax.json:1.0.4'
+}
